@@ -1,0 +1,34 @@
+#glasseffect {
+  position: absolute;
+  top: 570px;
+
+  z-index: 1;
+}
+#topproductadvertisment {
+  position: absolute;
+  top: 75px;
+  left: 0%;
+  z-index: 1;
+  display: flex;
+}
+#categoryintroforbigscreen {
+  display: flex;
+}
+#categoryintroforsmallscreen {
+  display: none;
+}
+@media only screen and (max-width: 1000px) {
+  #topproductadvertisment {
+    position: absolute;
+    top: 70px;
+    left: 0%;
+    z-index: 1;
+    display: none;
+  }
+  #categoryintroforbigscreen {
+    display: none;
+  }
+  #categoryintroforsmallscreen {
+    display: flex;
+  }
+}
